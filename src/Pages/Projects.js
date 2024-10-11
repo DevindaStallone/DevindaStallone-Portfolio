@@ -210,7 +210,7 @@ const content = [
                 >
                    <a href='https://ceylon-silk-style.vercel.app/'>Demo</a>
                 </Button>
-                <button className="p-[3px] ml-4 relative">
+                <button className="p-[3px] relative">
                     <div className="absolute inset-0 bg-gradient-to-r from-indigo-500 to-purple-500 rounded-lg" />
                     <div className="px-8 py-2  bg-black rounded-md  relative group transition duration-200 text-white hover:bg-transparent">
                     <a href='https://github.com/DevindaStallone/Ceylon-Silk-Style'>Source Code</a>
@@ -253,7 +253,7 @@ const content = [
                     <a href='https://new-regal-fitness-club.vercel.app/'>Demo</a>
                 </Button>
 
-                <button className="p-[3px] ml-4 relative">
+                <button className="p-[3px]  relative">
                     <div className="absolute inset-0 bg-gradient-to-r from-indigo-500 to-purple-500 rounded-lg" />
                     <div className="px-8 py-2  bg-black rounded-md  relative group transition duration-200 text-white hover:bg-transparent">
                     <a href='https://github.com/DevindaStallone/NewRegalFitness'>Source Code</a>
@@ -297,7 +297,7 @@ const content = [
                     <a href='https://devindastallone.github.io/KYN/'>Demo</a>
                 </Button>
 
-                <button className="p-[3px] ml-4 relative">
+                <button className="p-[3px]  relative">
                     <div className="absolute inset-0 bg-gradient-to-r from-indigo-500 to-purple-500 rounded-lg" />
                     <div className="px-8 py-2  bg-black rounded-md  relative group transition duration-200 text-white hover:bg-transparent">
                     <a href='https://github.com/DevindaStallone/Know-Your-Neighbourhood'>Source Code</a>
@@ -341,7 +341,7 @@ const content = [
                     <a href='https://meals-on-wheels-chi.vercel.app/'>Demo</a>
                 </Button>
 
-                <button className="p-[3px] ml-4 relative">
+                <button className="p-[3px] relative">
                     <div className="absolute inset-0 bg-gradient-to-r from-indigo-500 to-purple-500 rounded-lg" />
                     <div className="px-8 py-2  bg-black rounded-md  relative group transition duration-200 text-white hover:bg-transparent">
                     <a href='https://github.com/DevindaStallone/MealsOnWheels'>Source Code</a>
@@ -385,7 +385,7 @@ const content = [
                     <a href='https://devindastallone.github.io/ABC-Learning.github.io/'>Demo</a>
                 </Button>
 
-                <button className="p-[3px] ml-4 relative">
+                <button className="p-[3px]  relative">
                     <div className="absolute inset-0 bg-gradient-to-r from-indigo-500 to-purple-500 rounded-lg" />
                     <div className="px-8 py-2  bg-black rounded-md  relative group transition duration-200 text-white hover:bg-transparent">
                     <a href='https://github.com/DevindaStallone/ABC-Learning.github.io'>Source Code</a>
