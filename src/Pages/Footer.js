@@ -22,7 +22,7 @@ const Footer = () => {
     <a href="https://www.instagram.com/_devinda_stallone_/profilecard/?igsh=aDVoazUzenN4MjI5" target="_blank" rel="noopener noreferrer" class="flex items-center justify-center w-8 h-8 rounded-md border border-white hover:bg-white hover:text-black transition-colors duration-300">
     <FaInstagram className="text-blue-800 text-xl " />
     </a>
-    <a href="https://wa.me/94757099055" target="_blank" rel="noopener noreferrer" class="flex items-center justify-center w-8 h-8 rounded-md border border-white hover:bg-white hover:text-black transition-colors duration-300">
+    <a href="https://wa.me/+94757099055" target="_blank" rel="noopener noreferrer" class="flex items-center justify-center w-8 h-8 rounded-md border border-white hover:bg-white hover:text-black transition-colors duration-300">
     <FaWhatsapp className="text-blue-800 text-xl " />
     </a>
   </div>

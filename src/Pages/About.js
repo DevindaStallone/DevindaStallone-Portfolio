@@ -45,7 +45,7 @@ const Progress = () => (
 
 const PersonalInfo = () => {
   const birthdate = "15 February 2003";
-  const phone = "0094 75 709 90 55";
+  const phone = "+94 75 709 90 55";
   const city = "Chilaw, Sri Lanka";
   const age = 21;
   const email = "devindathamel15@gmail.com";
@@ -196,6 +196,45 @@ const Email = () => {
 
 };
 
+const Education = () => {
+  return (
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-4 p-4 w-[70rem] max-w-screen mx-auto ">
+  {/* <!-- Row 1 Column 1 --> */}
+  <div class="glassmorphism bg-white/30 backdrop-blur-md rounded-lg p-4 shadow-lg flex flex-col justify-between">
+    <h3 class="font-bold text-zinc-800 text-xl">Bachelor of Science (Hons) in Computer Science (Top-Up)</h3>
+    <p class="italic">University of Roehampton | London</p>
+    <span class="italic text-sky-500 ">2022-Present</span>
+  </div>
+
+  {/* <!-- Row 1 Column 2 --> */}
+  <div class="glassmorphism bg-white/30 backdrop-blur-md rounded-lg p-4 shadow-lg  flex flex-col justify-between">
+    <h3 class="font-bold text-zinc-800 text-xl">Higher National Diploma in Software Engineering</h3>
+    <p class="italic">Lithan Academy | Singapore</p>
+    <span class="italic text-sky-500 ">2022-Present</span>
+  </div>
+
+  {/* <!-- Row 2 Column 1 --> */}
+  <div class="glassmorphism bg-white/30 backdrop-blur-md rounded-lg p-4 shadow-lg flex flex-col justify-between">
+    <h3 class="font-bold text-zinc-800 text-xl">Cambridge International GCE AS Level (Math Stream)</h3>
+    <p class="italic">Broad Vision International School | Mahawewa, Sri lanka</p>
+    <span class="italic text-sky-500 ">2021</span>
+  </div>
+
+  {/* <!-- Row 2 Column 2 --> */}
+  <div class="glassmorphism bg-white/30 backdrop-blur-md rounded-lg p-4 shadow-lg flex flex-col justify-between">
+    <h3 class="font-bold text-zinc-800 text-xl">Cambridge International IGCSE O Level</h3>
+    <p class="italic">Broad Vision International School | Mahawewa, Sri lanka</p>
+    <span class="italic text-sky-500">2019</span>
+  </div>
+</div>
+
+
+
+  )
+}
+
+
+
 const items = [
   {
     id: 1,
@@ -259,5 +298,16 @@ const items = [
     img: "bg-pattern5.png",
     spareImg: "",
   },
+  {
+    id: 7,
+    title: "Education",
+    description: <Education />,
+    className: "lg:col-span-3  md:row-span-1",
+    imgClassName: "opacity-50 w-full h-full ",
+    titleClassName: "justify-start",
+    img: "bg-pattern1.jpg",
+    spareImg: "",
+  },
+
 
 ];
