@@ -23,11 +23,11 @@ const Testimonial = () => {
                     My <span className="text-purple">work experience</span>
                 </h1>
 
-                <div className="w-full mt-12 grid lg:grid-cols-4 grid-cols-1 gap-10 ">
+                <div className="w-[22rem] lg:w-full mt-12 grid lg:grid-cols-4 grid-cols-1 gap-10 m-auto ">
                     {workExperience.map((card) => (
                         <Button
                             key={card.id}
-                            //   random duration will be fun , I think , may be not
+                            //   random duration will be fun , I think , may be not 
                             duration={Math.floor(Math.random() * 10000) + 10000}
                             borderRadius="1.75rem"
                             style={{
@@ -42,7 +42,7 @@ const Testimonial = () => {
                             // remove bg-white dark:bg-slate-900
                             className="flex-1 text-white dark:text-white border-neutral-200 dark:border-slate-800"
                         >
-                            <div className="flex lg:flex-row flex-col lg:items-center p-3 py-6 md:p-5 lg:p-10 gap-2">
+                            <div className="flex lg:flex-row flex-col lg:items-center p-3 py-6 items-center lg:p-10 gap-2">
                                 <img
                                     src={card.thumbnail}
                                     alt={card.thumbnail}
@@ -104,7 +104,7 @@ const workExperience = [
       id: 2,
       title: "FITNESS WEBSITE - New Regal Fitness Club",
       desc: "Designed and developed a fitness website for a local gym that showcase the speciallity of the gym apart from other gym around the city.",
-      className: "md:col-span-2", // change to md:col-span-2
+      className: "md:col-span-2", 
       thumbnail: "/exp2.svg",
     },
     

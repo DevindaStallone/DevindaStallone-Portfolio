@@ -47,7 +47,7 @@ const PersonalInfo = () => {
   const birthdate = "15 February 2003";
   const phone = "+94 75 709 90 55";
   const city = "Chilaw, Sri Lanka";
-  const age = 21;
+  const age = 22;
   const email = "devindathamel15@gmail.com";
 
   return (
@@ -198,30 +198,30 @@ const Email = () => {
 
 const Education = () => {
   return (
-    <div class="grid grid-cols-1 md:grid-cols-4 gap-4 p-4 w-[70rem] max-w-screen mx-auto ">
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-4 p-4 w-[70rem] max-w-screen mx-auto">
   {/* <!-- Row 1 Column 1 --> */}
-  <div class="glassmorphism bg-white/30 backdrop-blur-md rounded-lg p-4 shadow-lg flex flex-col justify-between">
+  <div class="glassmorphism bg-white/30 backdrop-blur-md rounded-lg p-3 w-56 lg:w-[17rem] shadow-lg flex flex-col justify-between">
     <h3 class="font-bold text-zinc-800 text-xl">Bachelor of Science (Hons) in Computer Science (Top-Up)</h3>
     <p class="italic">University of Roehampton | London</p>
-    <span class="italic text-sky-500 ">2022-Present</span>
+    <span class="italic text-sky-500 ">2022-2024</span>
   </div>
 
   {/* <!-- Row 1 Column 2 --> */}
-  <div class="glassmorphism bg-white/30 backdrop-blur-md rounded-lg p-4 shadow-lg  flex flex-col justify-between">
+  <div class="glassmorphism bg-white/30 backdrop-blur-md rounded-lg p-4 w-56 lg:w-[17rem] shadow-lg  flex flex-col justify-between">
     <h3 class="font-bold text-zinc-800 text-xl">Higher National Diploma in Software Engineering</h3>
     <p class="italic">Lithan Academy | Singapore</p>
-    <span class="italic text-sky-500 ">2022-Present</span>
+    <span class="italic text-sky-500 ">2022-2024</span>
   </div>
 
   {/* <!-- Row 2 Column 1 --> */}
-  <div class="glassmorphism bg-white/30 backdrop-blur-md rounded-lg p-4 shadow-lg flex flex-col justify-between">
+  <div class="glassmorphism bg-white/30 backdrop-blur-md rounded-lg p-4 w-56 lg:w-[17rem] shadow-lg flex flex-col justify-between">
     <h3 class="font-bold text-zinc-800 text-xl">Cambridge International GCE AS Level (Math Stream)</h3>
     <p class="italic">Broad Vision International School | Mahawewa, Sri lanka</p>
     <span class="italic text-sky-500 ">2021</span>
   </div>
 
   {/* <!-- Row 2 Column 2 --> */}
-  <div class="glassmorphism bg-white/30 backdrop-blur-md rounded-lg p-4 shadow-lg flex flex-col justify-between">
+  <div class="glassmorphism bg-white/30 backdrop-blur-md rounded-lg p-4 w-56 lg:w-[17rem] shadow-lg flex flex-col justify-between">
     <h3 class="font-bold text-zinc-800 text-xl">Cambridge International IGCSE O Level</h3>
     <p class="italic">Broad Vision International School | Mahawewa, Sri lanka</p>
     <span class="italic text-sky-500">2019</span>
@@ -242,7 +242,7 @@ const items = [
     description: "",
     className: "lg:col-span-2  md:row-span-2 h-[50vh] md:h-full",
     imgClassName: "w-full h-full opacity-50",
-    titleClassName: "justify-end  md:top-0 top-72 relative",
+    titleClassName: "justify-end  md:top-0 top-64 relative",
     img: "/me.JPG",
     spareImg: "",
 
