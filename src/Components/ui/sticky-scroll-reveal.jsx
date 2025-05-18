@@ -46,20 +46,14 @@ export const StickyScroll = ({
       animate={{
         backgroundColor: backgroundColors[activeCard % backgroundColors.length],
       }}
-      className="h-[40rem] overflow-x-hidden  md:h-[30rem] overflow-y-auto flex flex-col lg:flex-row-reverse justify-center relative  rounded-3xl md:p-10 py-10"
-      ref={ref}>
-      <div
-        style={{ background: backgroundGradient }}
-        className={cn(
-          "lg:block h-72 w-full md:w-[95rem] rounded-lg bg-white sticky -top-24 z-10 mb-10 md:mb-0 md:top-10 md:overflow-hidden",
-          contentClassName
-        )}>
-        {content[activeCard].content ?? null}
-      </div>
-      <div className="relative flex items-start px-4 w-full top-[155rem] md:top-0">
+      className="relative flex lg:h-[30rem] h-[40rem] justify-center space-x-36 overflow-y-auto rounded-md p-10"
+      ref={ref}
+    >
+      
+      <div className="div relative flex items-start px-4 ">
         <div className="max-w-2xl">
           {content.map((item, index) => (
-            <div key={item.title + index} className="my-20 w-full">
+            <div key={item.title + index} className="my-20">
               <motion.h2
                 initial={{
                   opacity: 0,
@@ -67,7 +61,8 @@ export const StickyScroll = ({
                 animate={{
                   opacity: activeCard === index ? 1 : 0.3,
                 }}
-                className="text-3xl uppercase font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50 ">
+                className="text-2xl font-bold text-slate-100"
+              >
                 {item.title}
               </motion.h2>
               <motion.p
@@ -77,13 +72,23 @@ export const StickyScroll = ({
                 animate={{
                   opacity: activeCard === index ? 1 : 0.3,
                 }}
-                className="text-lg text-slate-300 font-light max-w-sm mt-10">
+                className="text-kg mt-10 max-w-sm text-slate-300"
+              >
                 {item.description}
               </motion.p>
             </div>
           ))}
           <div className="h-40" />
         </div>
+      </div>
+      <div
+        style={{ background: backgroundGradient }}
+        className={cn(
+          "sticky top-10 hidden h-72 w-[35rem] overflow-hidden rounded-md bg-white lg:block ",
+          contentClassName,
+        )}
+      >
+        {content[activeCard].content ?? null}
       </div>
     </motion.div>
   );

@@ -242,7 +242,7 @@ const items = [
     description: "",
     className: "lg:col-span-2  md:row-span-2 h-[50vh] md:h-full",
     imgClassName: "w-full h-full opacity-50",
-    titleClassName: "justify-end  md:top-0 top-64 relative",
+    titleClassName: "absolute bottom-4 left-4 right-4 text-white",
     img: "/me.JPG",
     spareImg: "",
 

@@ -194,48 +194,7 @@ const Java = [
 
 const content = [
 
-    {
-        title: "Ceylon Slik Style",
-        description: (
-            <div>
-                <p className='mb-5'>
-                    Ceylon Silk Style is an e-commerce platform where users can explore and shop a curated selection of premium silk products, showcasing the elegance and craftsmanship of Ceylonese silk artisans.
-                </p>
-                <div className="flex flex-row items-center justify-start mb-5 w-full">
-                    <AnimatedTooltip items={ceylonsilkstyle} />
-                </div>
-                <Button
-                    borderRadius="1rem"
-                    className="inline-flex h-12 animate-shimmer items-center justify-center rounded-md border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-6 font-medium text-slate-400 transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50"
-                >
-                   <a href='https://ceylon-silk-style.vercel.app/'>Demo</a>
-                </Button>
-                <button className="p-[3px] relative">
-                    <div className="absolute inset-0 bg-gradient-to-r from-indigo-500 to-purple-500 rounded-lg" />
-                    <div className="px-8 py-2  bg-black rounded-md  relative group transition duration-200 text-white hover:bg-transparent">
-                    <a href='https://github.com/DevindaStallone/Ceylon-Silk-Style'>Source Code</a>
-                    </div>
-                </button>
-            </div>
-        ),
-        content: (
-            <PinContainer
-                title="Source Code"
-                href="https://github.com/DevindaStallone/Ceylon-Silk-Style"
-            >
-                <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 md:w-[40rem] md:h-[20rem] w-[25rem] left-2 md:ml-0">
-                    <img
-                        src="ceylonsilkstyle.png"
-                        width={400}
-                        height={300}
-                        className="h-full w-full object-cover transition-opacity duration-300 ease-in-out"
-                        alt="original image"
-                    />
-                </div>
-            </PinContainer>
-
-        ),
-    },
+    
     {
         title: "New Regal Fitness Club",
         description: (
@@ -270,6 +229,48 @@ const content = [
                 <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 md:w-[40rem] md:h-[20rem] w-[25rem] left-2 md:ml-0 ">
                     <img
                         src="/newregal.png"
+                        width={400}
+                        height={300}
+                        className="h-full w-full object-cover transition-opacity duration-300 ease-in-out"
+                        alt="original image"
+                    />
+                </div>
+            </PinContainer>
+
+        ),
+    },
+    {
+        title: "Ceylon Slik Style",
+        description: (
+            <div>
+                <p className='mb-5'>
+                    Ceylon Silk Style is an e-commerce platform where users can explore and shop a curated selection of premium silk products, showcasing the elegance and craftsmanship of Ceylonese silk artisans.
+                </p>
+                <div className="flex flex-row items-center justify-start mb-5 w-full">
+                    <AnimatedTooltip items={ceylonsilkstyle} />
+                </div>
+                <Button
+                    borderRadius="1rem"
+                    className="inline-flex h-12 animate-shimmer items-center justify-center rounded-md border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-6 font-medium text-slate-400 transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50"
+                >
+                   <a href='https://ceylon-silk-style.vercel.app/'>Demo</a>
+                </Button>
+                <button className="p-[3px] relative">
+                    <div className="absolute inset-0 bg-gradient-to-r from-indigo-500 to-purple-500 rounded-lg" />
+                    <div className="px-8 py-2  bg-black rounded-md  relative group transition duration-200 text-white hover:bg-transparent">
+                    <a href='https://github.com/DevindaStallone/Ceylon-Silk-Style'>Source Code</a>
+                    </div>
+                </button>
+            </div>
+        ),
+        content: (
+            <PinContainer
+                title="Source Code"
+                href="https://github.com/DevindaStallone/Ceylon-Silk-Style"
+            >
+                <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 md:w-[40rem] md:h-[20rem] w-[25rem] left-2 md:ml-0">
+                    <img
+                        src="/ceylonsilkstyle.png"
                         width={400}
                         height={300}
                         className="h-full w-full object-cover transition-opacity duration-300 ease-in-out"
